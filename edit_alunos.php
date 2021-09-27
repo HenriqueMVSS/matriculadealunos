@@ -21,13 +21,13 @@ if($id){
 
 
 }else{
-    header('Location: lista_alunos.php');
-    exit;
+  header("Location: alunos_mat.php");
+  exit;
   }
   
   } else {
-  header('Location: lista_alunos.php');
-  exit;
+    header("Location: alunos_mat.php");
+    exit;
 }
 
 echo $id;
